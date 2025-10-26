@@ -1,5 +1,5 @@
 body {
-  background-color: #0d1117;
+  background-color: #8b1c80;
   color: #e6edf3;
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -42,7 +42,7 @@ h1 {
 .square {
   width: 100px;
   height: 100px;
-  background: #161b22;
+  background: #ac20a9;
   border: 2px solid #30363d;
   font-size: 40px;
   font-weight: bold;
@@ -52,7 +52,7 @@ h1 {
 }
 
 .square:hover {
-  background-color: #21262d;
+  background-color: #941977;
   transform: scale(1.05);
 }
 
