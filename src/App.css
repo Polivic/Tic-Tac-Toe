@@ -1,0 +1,81 @@
+body {
+  background-color: #0d1117;
+  color: #e6edf3;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #58a6ff;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.game {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.status {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #ffcc00;
+  font-weight: bold;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: #161b22;
+  border: 2px solid #30363d;
+  font-size: 40px;
+  font-weight: bold;
+  color: #58a6ff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.square:hover {
+  background-color: #21262d;
+  transform: scale(1.05);
+}
+
+.game-info {
+  text-align: left;
+}
+
+.game-info button {
+  background: #238636;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.game-info button:hover {
+  background: #2ea043;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+}
